@@ -1,0 +1,117 @@
+/* Styles the body tag */
+body {
+    margin: 0 2em;
+    font-family: 'Judson', serif;
+    width: auto;
+    background-color: #f4f1de;
+   /* line-height: 1.5;*/
+   
+}
+
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+    }
+
+/* Styles the footer */
+.author {
+    background-color: #2e1114;
+    color: #fff;
+    margin-top: 2em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+/* styles header backround image*/
+.back-header{
+    background-image: url("nomthi2.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding-top: 4em;
+    font-size: 1.5em;
+    padding-left: 32em; 
+    border-radius: 8px;
+    /*filter: opacity(50%);*/
+    /*filter: blur(4px);*/
+}
+
+   /* styles in loving memory text */
+.style-memory{
+    
+    font-family: 'Sacramento', cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+/* styles main text */
+.main-text{
+    line-height: 1.5;
+    /*border: 5px solid #bc986a;*/
+    border: 5px solid #501b1d;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+    font-size: 1.5em;
+    color: #2e1114;  
+}
+/* styles the third section*/
+.third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-height: 70vh;  
+    margin-top: 2em;
+}
+/*styles the image */
+.image-style{
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 500px;
+    box-sizing: border-box;
+    float: right;
+    height: 50%;
+}
+
+/*styles the block quote text*/
+.third-text{
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25vh; 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+blockquote {
+   /* background: #f9f9f9;*/
+    border-left: 10px solid #501b1d;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #2e1114;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+
+
